@@ -9,6 +9,7 @@
  * 
  * 
  * Seems to use lambda expressions
+ * 		- to use one, you need to implement a functional interface
  */
 package com.mikesimagination;
 
