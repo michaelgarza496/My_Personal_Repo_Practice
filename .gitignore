@@ -32,3 +32,4 @@ RemoteSystemsTempFiles/
 *.settings/
 *.classpath
 *.settings
+/.recommenders/
