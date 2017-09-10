@@ -29,6 +29,7 @@ RemoteSystemsTempFiles/
 # git
 *.git/
 
+*.project/
 *.settings/
 *.classpath
 *.settings
