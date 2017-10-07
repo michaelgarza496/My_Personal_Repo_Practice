@@ -4,26 +4,22 @@ public class main {
 
 	public static void main(String[] args) {
 
-		main tc = new main();
-		tc.switchString("B");
+		A a = new C();
 		
-		String s;
-		s.int
-		System.out.println(s);
-	}
-
-	public void switchString(String input) {
-		switch (input) {
-		case "a":
-			System.out.println("apple");
-		case "b":
-			System.out.println("bat");
-			break;
-		case "B":
-			System.out.println("big bat");
-		default:
-			System.out.println("none");
-		}
+		System.out.println(a.a);
+		
 	}
 
 }
+
+class A{int a = 10;}
+class B extends A{
+	int a = 20;
+	
+	public void hello(){
+		System.out.println("Hello B");
+	}
+
+
+}
+class C extends B{int a = 30; public void hello(){System.out.println("Hello C");} }
